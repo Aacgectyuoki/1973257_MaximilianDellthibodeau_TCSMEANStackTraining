@@ -1,0 +1,13 @@
+Steps on how to push an HTML file
+
+1. create a folder and name it something
+    - example: I named my folder "TCSMEANStackTraining"
+2. create a folder inside your folder that uses Angular
+    - example: My folder inside "TCSMEANStackTraining" is called "Angular_App"
+3. create an file inside the main folder
+    - example: I created an HTML file called "sample.html"
+4. create a documentation file inside the main folder
+    - example: "docs.txt"
+5. create a .gitignore text file inside the main folder
+6. open the terminal, and change directory ("cd") to your main folder.
+7. run some commands
