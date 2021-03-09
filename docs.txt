@@ -1,13 +1,25 @@
 Steps on how to push an HTML file
 
-1. create a folder and name it something
+1a. create a folder and name it something
     - example: I named my folder "TCSMEANStackTraining"
+1b. if you have a folder from GitHub you want to clone, type "git clone [folder]"
+    - example: If I have a folder on GitHub, I type "git clone TCSMEANStackTraining"
 2. create a folder inside your folder that uses Angular
     - example: My folder inside "TCSMEANStackTraining" is called "Angular_App"
 3. create an file inside the main folder
     - example: I created an HTML file called "sample.html"
 4. create a documentation file inside the main folder
     - example: "docs.txt"
-5. create a .gitignore text file inside the main folder
-6. open the terminal, and change directory ("cd") to your main folder.
-7. run some commands
+5. open the terminal, and change directory ("cd") to your main folder.
+6. check the files in your folder and see if there is a ".git" and ".gitignore"
+if there isn't, make those files by typing in "touch .git" and "touch .gitignore"
+7. run some commands in this order
+    a. git add .
+    b. git status
+    c. git commit -m "files added"
+    d. git push master HEAD
+8. log onto your GitHub
+9. take a screenshot of your output, and also your HTML code
+10. create a .gitignore text file inside the main folder
+    - I don't want the "docs.txt" or any of screenshots to show
+11. repeat step #7
